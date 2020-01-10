@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y git python3-dev gcc \
 
 COPY requirements.txt .
 
-RUN pip install Pillow
+RUN pip install Pillow==6.2.2
 
 RUN pip install --upgrade -r requirements.txt
 

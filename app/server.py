@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/cnspkemzderyfj0/bald-preliminary1.pth?dl=1'
+export_file_url = 'https://www.dropbox.com/s/5bggindbwhydedu/bald-preliminary1?dl=1'
 export_file_name = 'export.pkl'
 
 classes = ['Bald', 'Not Bald']
